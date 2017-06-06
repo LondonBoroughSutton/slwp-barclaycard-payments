@@ -1,0 +1,41 @@
+td.ncolh1 {
+  background-color: #060;
+  color: yellow;
+}
+td.ncoltxtl,
+td.ncoltxtl2 {
+  text-align: right;
+  font-weight: bold;
+}
+td.ncoltxtr {
+  text-align: left;
+  font-weight: bold;
+}
+td.ncoltxtc,
+td.ncollogoc {
+  text-align: center;
+  font-weight: bold;
+}
+td.ncolline1 {
+  background-color: #fff;
+}
+input.ncol {
+  background-color: #060;
+  color: white;
+}
+table.ncoltable1,
+table.ncoltable2,
+table.ncoltable3,
+td.ncolinput,
+td.ncolline2,
+td.ncoltxtc,
+td.ncoltxtr,
+td.ncollogoc,
+td.ncoltxtl,
+td.ncoltxtl2 {
+  background-color: #ffc;
+}
+table.ncoltable2 {
+  border-width: medium;
+  border-color: green;
+}
