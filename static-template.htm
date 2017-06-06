@@ -1,23 +1,109 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Online payments - Sutton Council</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="base.min.css" media="screen,print">
+  <link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="robots" content="noindex,follow">
   <style>
-    td.ncolh1 {background-color : #006600; color : yellow; font-family : verdana}
-    td.ncoltxtl {background-color : #ffffcc; color : black; text-align : right; font-weight : bold}
-    td.ncoltxtl2 {background-color : #ffffcc; color : black; text-align : right; font-weight : bold}
-    td.ncoltxtr {background-color : #ffffcc; color : black; text-align : left; font-weight : bold}
-    td.ncoltxtc {background-color : #ffffcc; color : black; text-align : center; font-weight : bold}
-    td.ncolinput {background-color : #ffffcc; color : black}
-    td.ncolline1 {background-color : #ffffff; color : black}
-    td.ncolline2 {background-color : #ffffcc; color : black}
-    input.ncol {background-color : #006600; color : white}
-    td.ncollogoc {background-color : #ffffcc; color : black; text-align : center; font-weight : bold}
-    table.ncoltable1 { background-color: #ffffcc;   }
-    table.ncoltable2 { background-color: #ffffcc;  border-width : medium; border-color : green; }
-    table.ncoltable3 { background-color: #ffffcc;   }
+    td.ncolh1 {
+      background-color: #060;
+      color: yellow;
+    }
+    td.ncoltxtl,
+    td.ncoltxtl2 {
+      text-align: right;
+      font-weight: bold;
+    }
+    td.ncoltxtr {
+      text-align: left;
+      font-weight: bold;
+    }
+    td.ncoltxtc,
+    td.ncollogoc {
+      text-align: center;
+      font-weight: bold;
+    }
+    td.ncolline1 {
+      background-color: #fff;
+    }
+    input.ncol {
+      background-color: #060;
+      color: white;
+    }
+    table.ncoltable1,
+    table.ncoltable2,
+    table.ncoltable3,
+    td.ncolinput,
+    td.ncolline2,
+    td.ncoltxtc,
+    td.ncoltxtr,
+    td.ncollogoc,
+    td.ncoltxtl,
+    td.ncoltxtl2 {
+      background-color: #ffc;
+    }
+    table.ncoltable2 {
+      border-width: medium;
+      border-color: green;
+    }
   </style>
-  </head>
-  <body>
-    <h1>Sutton</h1>
-    $$$PAYMENT ZONE$$$
-  </body>
+</head>  
+<body class="oneCol">
+  <div id="container">
+    <div id="header">
+      <div class="section">
+        <ul class="usability">
+          <li><a href="#content-body"><span class="fa fa-comments"></span> Skip to content</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="site-title">
+      <div class="section">
+        <div class="faux-h1"><img src="logo-sutton.png" alt="Sutton Council"></div>
+        <div class="right">
+          <a href="https://www.sutton.gov.uk"><img src="logo-text.png" alt="Sutton Council homepage"></a>
+          <form action="https://www.sutton.gov.uk/site/scripts/google_results.aspx" method="get" id="search">
+            <label for="SearchSite">Search this site</label>
+            <input type="text" size="18" maxlength="40" class="field" name="q" id="SearchSite" placeholder="Search this site" value="">
+            <button class="btn">Search <span class="fa fa-search"></span></button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div id="main" role="main">
+      <div class="section">
+        <div class="content" id="content-body" tabindex="-1">
+          $$$PAYMENT ZONE$$$
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    
+    <div id="footer">
+      <div class="section">
+        <img src="logo-footer.png" class="logo" alt="">
+
+        <div class="copyright">
+          <p>&copy; 2017 Sutton Council, Civic Offices, St. Nicholas Way, Sutton SM1 1EA | <a href="https://www.sutton.gov.uk/info/200232/contact_us">Contact us</a></p>
+          <p>
+            <a href="https://www.sutton.gov.uk/privacy">Privacy statement</a> |
+            <a href="https://www.sutton.gov.uk/terms">Terms and disclaimer</a> |
+            <a href="https://www.sutton.gov.uk/site_map">Site map</a>  |
+            <a href="https://www.sutton.gov.uk/accessibility">Accessibility</a> |
+            <a href="https://www.sutton.gov.uk/a_to_z">A-Z of services</a>
+          </p>
+        </div>
+
+        <div class="clear"></div>
+      </div>
+    </div>
+    
+  </div>
+</body>
 </html>
